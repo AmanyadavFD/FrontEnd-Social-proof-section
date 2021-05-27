@@ -1,4 +1,4 @@
-# Frontend Mentor - Social proof section <h1><a href=" https://amanyadavfd.github.io/FrontEnd-Social-proof-section/">Live link</a></h1>
+# Frontend Mentor - Social proof section <h1><a href="https://amanyadavfd.github.io/FrontEnd-Social-proof-section/">Live link</a></h1>
 
 ![Design preview for the Social proof section coding challenge](./design/desktop-preview.jpg)
 

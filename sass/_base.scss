@@ -1,0 +1,44 @@
+// Color
+$VeryDarkMagenta: hsl(300, 43%, 22%);
+$SoftPink: hsl(333, 80%, 67%);
+$DarkGrayishMagenta: hsl(303, 10%, 53%);
+$LightGrayishMagenta: hsl(300, 24%, 96%);
+$White: hsl(0, 0%, 100%);
+
+// Responsive
+$small-desktop: 68.75rem; // 1100px /16px = 68.75
+$tablet: 56.25rem; // 900px / 16px = 56.25
+// @media only screen and (max-width: $tablet) {
+// }
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "Spartan", sans-serif;
+  //   font-weight: 400;
+  line-height: 1.5;
+  background-image: url(../images/bg-pattern-top-desktop.svg),
+    url(../images/bg-pattern-bottom-desktop.svg);
+  background-repeat: no-repeat;
+  //   min-height: 100vh;
+  background-size: 50% 50%, 121% 128%;
+  @media only screen and (max-width: $tablet) {
+    background-image: url(../images/bg-pattern-top-mobile.svg),
+      url(../images/bg-pattern-bottom-mobile.svg);
+    background-position: 115% -39%, -106% -46%;
+  }
+}
+ul {
+  list-style-type: none;
+}

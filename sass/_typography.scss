@@ -1,0 +1,34 @@
+.heading__primary {
+  font-size: 4rem;
+  color: $VeryDarkMagenta;
+  font-weight: 700;
+  line-height: 1.2;
+  @media only screen and (max-width: $tablet) {
+    font-size: 3rem;
+    line-height: 1;
+  }
+}
+.haeding__secondary {
+  padding-right: 4rem;
+  font-size: 1.3rem;
+  color: $VeryDarkMagenta;
+  @media only screen and (max-width: $small-desktop) {
+    padding: 0;
+  }
+}
+.paragraph__primary {
+  color: $DarkGrayishMagenta;
+  font-size: 1.4rem;
+  font-weight: 400;
+  margin-top: 1rem;
+}
+.haeding__third {
+  text-transform: capitalize;
+  font-size: 1.3rem;
+  color: $White;
+}
+.paragraph__secondary {
+  font-size: 1.3rem;
+  font-weight: normal;
+  color: $SoftPink;
+}

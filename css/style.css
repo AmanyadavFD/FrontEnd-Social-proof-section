@@ -1,0 +1,167 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box; }
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit; }
+
+body {
+  font-family: "Spartan", sans-serif;
+  line-height: 1.5;
+  background-image: url(../images/bg-pattern-top-desktop.svg), url(../images/bg-pattern-bottom-desktop.svg);
+  background-repeat: no-repeat;
+  background-size: 50% 50%, 121% 128%; }
+  @media only screen and (max-width: 56.25rem) {
+    body {
+      background-image: url(../images/bg-pattern-top-mobile.svg), url(../images/bg-pattern-bottom-mobile.svg);
+      background-position: 115% -39%, -106% -46%; } }
+
+ul {
+  list-style-type: none; }
+
+.product__info {
+  display: flex; }
+  @media only screen and (max-width: 56.25rem) {
+    .product__info {
+      flex-direction: column; } }
+  .product__info__text {
+    flex: 0 0 40%; }
+    @media only screen and (max-width: 56.25rem) {
+      .product__info__text {
+        text-align: center;
+        margin-bottom: 3rem; } }
+  .product__info__rating {
+    list-style: none;
+    width: 50%;
+    position: relative;
+    margin-left: 9rem; }
+    @media only screen and (max-width: 56.25rem) {
+      .product__info__rating {
+        width: 100%;
+        margin: 0;
+        position: static; } }
+  .product__info__ratingbox {
+    padding-right: 3rem; }
+    @media only screen and (max-width: 68.75rem) {
+      .product__info__ratingbox {
+        padding: 0; } }
+  .product__info__listItem {
+    display: flex;
+    align-items: center;
+    background-color: #f7f2f7;
+    padding: 2rem 2rem;
+    justify-content: space-between;
+    position: absolute;
+    border-radius: 5px; }
+    @media only screen and (max-width: 68.75rem) {
+      .product__info__listItem {
+        position: static; }
+        .product__info__listItem:not(:last-child) {
+          margin-bottom: 1rem; } }
+    @media only screen and (max-width: 56.25rem) {
+      .product__info__listItem {
+        flex-direction: column; } }
+    .product__info__listItem:not(:last-child) {
+      margin-bottom: 1rem; }
+    .product__info__listItem--item2 {
+      top: 8rem;
+      left: 4rem; }
+    .product__info__listItem--item3 {
+      top: 16rem;
+      left: 10rem; }
+
+.review {
+  margin-top: 10rem;
+  display: flex; }
+  @media only screen and (max-width: 56.25rem) {
+    .review {
+      flex-direction: column;
+      width: 100%; } }
+  .review__box {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem; }
+  .review__img {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    margin-right: 3rem; }
+  .review__item {
+    background-color: #502050;
+    margin-right: 2rem;
+    border-radius: 5px;
+    padding: 4rem 3rem;
+    height: 100%; }
+    @media only screen and (max-width: 68.75rem) {
+      .review__item {
+        padding-left: 2rem;
+        padding-right: 2rem; } }
+    @media only screen and (max-width: 56.25rem) {
+      .review__item {
+        margin: 0; } }
+    .review__item--item2 {
+      margin-top: 2rem; }
+    .review__item--item3 {
+      margin-top: 4rem; }
+  .review__para {
+    font-size: 1.5rem;
+    color: #f7f2f7; }
+
+.attribution {
+  text-align: center; }
+
+.proofSection {
+  min-height: 100vh;
+  padding: 10rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.container {
+  max-width: 110rem;
+  width: 80%;
+  margin: 0 auto; }
+  @media only screen and (max-width: 68.75rem) {
+    .container {
+      width: 100%;
+      padding: 0 5rem; } }
+
+.heading__primary {
+  font-size: 4rem;
+  color: #502050;
+  font-weight: 700;
+  line-height: 1.2; }
+  @media only screen and (max-width: 56.25rem) {
+    .heading__primary {
+      font-size: 3rem;
+      line-height: 1; } }
+
+.haeding__secondary {
+  padding-right: 4rem;
+  font-size: 1.3rem;
+  color: #502050; }
+  @media only screen and (max-width: 68.75rem) {
+    .haeding__secondary {
+      padding: 0; } }
+
+.paragraph__primary {
+  color: #937b92;
+  font-size: 1.4rem;
+  font-weight: 400;
+  margin-top: 1rem; }
+
+.haeding__third {
+  text-transform: capitalize;
+  font-size: 1.3rem;
+  color: white; }
+
+.paragraph__secondary {
+  font-size: 1.3rem;
+  font-weight: normal;
+  color: #ee68a4; }
